@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #263159;
+    background: linear-gradient(320deg, #495579 30%, #FFFBEB 30%, #263159 40%);
+}
+
+.container h1 {
+    text-align: center;
+    padding: 16px 0 4px 0;
+    font-size: 3rem;
+    margin: 13px 0 0;
+    letter-spacing: 2px;
+    color: #FBFF00;
+}
+
+.container hr {
+    width: 280px;
+    margin: auto;
+    border: 2px double #E93B81 !important;
+    margin-bottom: 22px;
+}
+
+.c-dock {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-dock input {
+    margin: 7px 9px;
+    min-width: 600px;
+    padding: 9px 5px;
+    font-size: 15px;
+    line-height: 14px;
+    display: block;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    background-color: #B2C8DF;
+    color: #525252;
+}
+
+.c-dock input:focus {
+    outline-color: #E93B81;
+    outline-style: outset;
+    outline-width: 3px;
+    transition: all 300ms ease;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.c-dock label {
+    margin: 24px 0 7px 0;
+    color: #00FFAB;
+    font-weight: 600;
+}
+
+.c-dock textarea {
+    display: block;
+    margin: 7px 9px;
+    padding: 9px 5px;
+    min-width: 600px;
+    outline: none;
+    font-size: 15px;
+    line-height: 14px;
+    padding: 4px 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: #B2C8DF;
+    color: #525252;
+}
+
+.c-dock textarea:focus {
+    outline-color: #E93B81;
+    outline-style: outset;
+    outline-width: 3px;
+    transition: all 300ms ease;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.btn {
+    display: block;
+    margin: 11px auto;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 14px;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #fd458c;
+    transition: 300ms;
+}
+
+.btn:hover {
+    box-shadow: inset 250px 0 0 #fd458c;
+    color: #ffffff;
+}

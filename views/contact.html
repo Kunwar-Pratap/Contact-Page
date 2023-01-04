@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page - Node.js & MongoDB Database</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <hr>
+        <form action="/contact.html" method="post">
+            <div class="c-dock">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="c-dock">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="c-dock">
+                <label for="concern">Your Concern</label>
+                <textarea name="concern" id="concern" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

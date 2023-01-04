@@ -1,0 +1,16 @@
+{
+  "name": "contact_us_01",
+  "version": "1.0.0",
+  "description": "Contact us page using node and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kunwar Pratap",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
+  },
+  "keywords": []
+}
